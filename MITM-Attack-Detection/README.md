@@ -23,7 +23,7 @@ I also explored the network indicators that can help identify potential MITM act
 
 _______________________________________________________________________________________________________________________________
 
-#1. ARP Spoofing (Network Interception)
+## 1. ARP Spoofing (Network Interception)
 **What I Learned
 ARP spoofing is a technique in which an attacker sends forged Address Resolution Protocol (ARP) messages to associate their MAC address with the IP address of another device, such as the default gateway.
 This can cause network traffic intended for the legitimate gateway to be redirected through the attacker's device, potentially enabling traffic interception or manipulation.
@@ -53,7 +53,7 @@ Replace 192.168.1.1 with the IP address of your default gateway.
 
 ___________________________________________________________________________________________________________________
 
-#2. DNS Spoofing (Traffic Redirection)
+## 2. DNS Spoofing (Traffic Redirection)
 **What I Learned
 DNS spoofing is a technique in which an attacker provides forged DNS responses to redirect a victim to an unintended IP address.
 By manipulating DNS resolution, an attacker may redirect users to malicious websites, phishing pages, or systems controlled by the attacker.
@@ -86,7 +86,7 @@ Note: This filter is useful for investigation, but it may also identify legitima
 
 
 ________________________________________________________________________________________________________________
-#3. SSL Stripping (HTTPS Downgrade Attack)
+## 3. SSL Stripping (HTTPS Downgrade Attack)
 What I Learned
 SSL stripping is a type of Man-in-the-Middle attack in which an attacker attempts to downgrade a victim's secure HTTPS connection to an unencrypted HTTP connection.
 This can occur when a victim initially connects to a website over HTTP and the attacker intercepts the communication before a secure HTTPS connection is established.
