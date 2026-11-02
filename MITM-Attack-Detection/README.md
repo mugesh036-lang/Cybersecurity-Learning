@@ -1,7 +1,7 @@
-   #Man-in-the-Middle (MITM) Attack Detection
+   ###Man-in-the-Middle (MITM) Attack Detection###
 Hands-on Cybersecurity Learning | Network Security Monitoring
 
-###Overview
+Overview
 Today, I explored Man-in-the-Middle (MITM) attacks and learned how attackers can intercept, monitor, or manipulate communication between two parties without their knowledge.
 A MITM attack occurs when an attacker positions themselves between a communicating client and server, potentially allowing them to eavesdrop on sensitive information, manipulate transmitted data, or redirect network traffic.
 These attacks may expose sensitive information such as login credentials, session tokens, and financial data, particularly when encryption or authentication mechanisms are weak or improperly configured.
