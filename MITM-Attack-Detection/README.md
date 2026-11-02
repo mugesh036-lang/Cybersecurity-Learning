@@ -50,6 +50,9 @@ To investigate ARP traffic associated with a specific IP address:
 arp.src.proto_ipv4 == 192.168.1.1
 Replace 192.168.1.1 with the IP address of your default gateway.
 📸 Screenshot: ARP traffic analysis showing duplicate IP-to-MAC address mappings.
+<img width="940" height="364" alt="image" src="https://github.com/user-attachments/assets/39399a64-6cdf-4a3f-8f14-cb1a0f57ae64" />
+<img width="940" height="576" alt="image" src="https://github.com/user-attachments/assets/0177eec1-7565-4b3e-9cba-72c81b555b7e" />
+
 
 ___________________________________________________________________________________________________________________
 
@@ -83,6 +86,7 @@ dns.flags.response == 1 && ip.src != 192.168.1.1
 Replace 192.168.1.1 with your configured DNS resolver.
 Note: This filter is useful for investigation, but it may also identify legitimate DNS responses. Unexpected DNS sources should be validated against the network's DNS configuration.
 📸 Screenshot: DNS response analysis and identification of unexpected DNS response sources.
+<img width="940" height="184" alt="image" src="https://github.com/user-attachments/assets/dfe123aa-9557-4c82-b11a-41996a8a2b1f" />
 
 
 ________________________________________________________________________________________________________________
@@ -113,6 +117,7 @@ To identify HTTP traffic containing a login-related URI:
 http.request.uri contains "login"
 This filter helps identify HTTP requests containing the word login in their URI. It does not independently confirm SSL stripping.
 📸 Screenshot: HTTP traffic analysis showing potentially unencrypted communication.
+<img width="940" height="158" alt="image" src="https://github.com/user-attachments/assets/b2af10d8-934a-4225-adfe-603345ed7a88" />
 
 **Tools and Technologies Used
 Tool	Purpose
