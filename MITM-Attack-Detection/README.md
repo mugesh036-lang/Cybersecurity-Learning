@@ -1,7 +1,7 @@
-   ### Man-in-the-Middle (MITM) Attack Detection###
+   #Man-in-the-Middle (MITM) Attack Detection
 Hands-on Cybersecurity Learning | Network Security Monitoring
 
-Overview
+###Overview
 Today, I explored Man-in-the-Middle (MITM) attacks and learned how attackers can intercept, monitor, or manipulate communication between two parties without their knowledge.
 A MITM attack occurs when an attacker positions themselves between a communicating client and server, potentially allowing them to eavesdrop on sensitive information, manipulate transmitted data, or redirect network traffic.
 These attacks may expose sensitive information such as login credentials, session tokens, and financial data, particularly when encryption or authentication mechanisms are weak or improperly configured.
@@ -12,7 +12,7 @@ As part of this learning exercise, I explored three common MITM techniques:
 •	SSL Stripping (Downgrade Attack)
 I also explored the network indicators that can help identify potential MITM activity through traffic analysis.
 
-#1. ARP Spoofing (Network Interception)#
+##1. ARP Spoofing (Network Interception)
 
 What I Learned
 ARP spoofing is a technique in which an attacker sends forged Address Resolution Protocol (ARP) messages to associate their MAC address with the IP address of another device, such as the default gateway.
