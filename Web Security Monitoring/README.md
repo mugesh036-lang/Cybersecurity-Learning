@@ -77,6 +77,7 @@ They inspect incoming HTTP traffic and block or log potentially harmful requests
 ## Detecting Web Attacks
 
 **Client-side**
+
 attacks rely on abusing weaknesses in user behavior or on the user's device. 
 
 The tools available to an analyst, such as server-side logs and network traffic captures, offer little to no visibility into what occurs inside a user's browser without EDR
