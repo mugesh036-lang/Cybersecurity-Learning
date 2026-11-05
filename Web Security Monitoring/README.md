@@ -71,3 +71,47 @@ They inspect incoming HTTP traffic and block or log potentially harmful requests
 
 •	Network-based: A physical or virtual appliance situated on the network perimeter. More suited for enterprise environments.
 
+
+
+
+## Detecting Web Attacks
+
+**Client-side**
+attacks rely on abusing weaknesses in user behavior or on the user's device. 
+
+The tools available to an analyst, such as server-side logs and network traffic captures, offer little to no visibility into what occurs inside a user's browser without EDR
+
+Common Client-Side Attacks: Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), 
+
+**Server-side**
+
+Attacks rely on exploiting vulnerabilities within a web server, the application's code, or the backend that supports a website or a web application.
+
+we will identify server-side attacks in both logs and network traffic.
+
+Common Server-Side Attacks: Brute-force , SQL Injection (SQLi), Command Injection 
+
+**Log-based analysis**
+
+Logs can be a valuable tool for detecting web attacks.  Every request sent to a web server can leave evidence in its access and error logs.
+
+**Network traffic logs**
+
+allows analysts to examine the raw data exchanged between a client and a server. By capturing and inspecting packets, analysts can observe attack behavior on a more detailed level, including the underlying transport protocols and the application data itself. Network captures are more verbose than server logs, revealing the data behind every request and response. This can include full HTTP headers, POST bodies, cookies, and uploaded and downloaded files
+
+**Web Application Firewalls (WAFs) **
+
+WAF are often the first line of defense for websites and web applications. So far in this room, we have focused on detecting and analyzing malicious activity
+
+Challenge-Response Mechanisms – Request with captcha
+
+Integrating Known Indicators and Threat Intelligence --- OWASP Top 10, CVE, APT groups
+
+Rule:
+
+If User-Agent contains "sqlmap"
+
+then BLOCK
+
+
+
